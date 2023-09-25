@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    background-color: #1F0636;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 3rem;
+    color: var(--color--);
+}
+h2{
+    font-size: 2rem;
+    color: var(--color--);
+}
+p{
+    font-size: 1.3rem;
+    color: var(--primary-color--)
+}
+:root{
+    --color--: #e0b662; 
+    --text-color--: #1F0636;
+    --primary-color--:rgba(255, 255, 255, 0.674);
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-inline: 20px;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--primary-color--)
+}
+.primary-button{
+    background-color: var(--color--);
+    padding: 10px 30px;
+    color: var(--text-color--);
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.primary-button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--color--);
+}
+.secondary-button{
+    background-color: var(--text-color--);
+    color: var(--color--);
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid var(--color--);
+    transition: all 0.3s;
+}
+.secondary-button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--color--);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* NAVBAR */
+nav{
+    width: 100%;
+}
+.nav-section{
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.nav-section  h1{
+    color: var(--color--);
+    font-family: 'Fuggles', cursive;
+}
+.list a{
+    font-size: 1.3rem;
+    padding-left: 20px;
+    transition: all 0.5s;
+}
+.list a:hover{
+    color: var(--color--);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.nav-toggle{
+    display: none;
+    color: var(--color--);
+    font-size: 30px;
+    transition: all 0.3s;
+}
+.nav-toggle:hover{
+    transform: scale(1.3);
+}
+/* HEADER */
+.header-section{
+    justify-content: space-between;
+}
+.header-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px; 
+    margin-right: 10px;
+}
+.hire-button a{
+    margin: 10px 5px;
+}
+.icons a{
+    font-size: 1.5rem;
+    color: var(--color--);
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+.icons i:hover{
+    transform: scale(1.2);
+}
+.header-image img{
+    width: 100%;
+    filter: drop-shadow( 10px 10px 50px rgba(255, 255, 255, 0.707));
+}
+/* Middle */
+.about-section{
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 100px;
+}
+.child-section{
+    padding: 70px;
+    background-color: #2e0455;
+    width: 80%;
+    box-shadow: 2px 2px 20px #11041d;
+    border-radius: 10px;
+}
+.child-section li {
+    color: var(--primary-color--);
+    margin: 10px;
+}
+.child-section a{
+    color: var(--color--);
+    transition: all 0.3s;
+}
+.child-section a:hover{
+    transform: scale(1.1);
+}
+/* SKILL SECTION */
+.skill-section{
+    padding: 10px;
+}
+.skill-card{
+    width: 30%;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+.skill-img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.skill-img:hover{
+    transform: scale(1.1);
+}
+
+/* Work Section */
+.work-section{
+    margin-block: 60px 30px;
+    text-align: center;
+}
+.work-card{
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.card{
+    background-color: #2e0455;
+    width: 30%;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 2px 0 20px #11041d;
+}
+.card-img{
+    border-radius: 20px 20px 0 0 ;
+    background-color: white;
+    height: 50%;
+}
+.card-text{
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+/* CONTACT SECTION */
+footer{
+    width: 100%;
+    background-color: #2e0455;
+    margin-top: 60px;
+    padding: 20px;
+}
+.contact-section{
+    justify-content: space-between;
+}
+.contact-section i{
+    padding:20px;
+}
+.contact-srch input{
+    font-weight: 600;
+    display: block;
+    font-size: 1rem;
+    background-color: var(--text-color--);
+    border: none;
+    margin-block: 20px;
+    padding: 30px 10px 30px 10px;
+    border-radius: 10px;
+    width: 45vw;
+}

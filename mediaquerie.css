@@ -1,0 +1,89 @@
+@media screen and (max-width:1024px) {
+    h1{
+        font-size: 2.5rem
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .work-card{
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .child-section{
+        padding: 30px;
+    }
+}
+@media screen and (max-width:768px){
+    .skill-section{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .skill-card{
+        width: 45%;
+    }
+    .card{
+        width: 40%;
+        height: 400px;
+    }
+    .contact-section{
+        flex-wrap: wrap;
+    }
+    .contact-text{
+        width: 100%;
+    }
+    .contact-srch input{
+        width: 80vw;
+    }
+}
+@media screen and (max-width:640px){
+    .header-image{
+        display: none;
+    }
+    .header-text{
+        justify-content: center;
+        width: 100%;
+        background-image: url(photo/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .about-img{
+        display: none;
+    }
+    .child-section{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        height: 400px;
+    }
+    .list{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+    }
+    .about-section{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:425px){
+    .header-text {
+        gap: 5px;
+    }
+    .skill-card{
+        width: 100%;
+    }
+    .contact-srch input{
+        padding: 10px 20px 10px 20px;
+    }
+    footer{
+        padding: 0;
+    }
+    .container{
+        padding-inline: 10px;
+    }
+}
